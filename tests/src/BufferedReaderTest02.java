@@ -8,8 +8,9 @@ import java.io.IOException;
     带有缓冲区的字符输入流
     不需要自定义数组，自带缓冲
  */
-public class BufferedReaderTest01 {
+public class BufferedReaderTest02 {
     public static void main(String[] args) {
+    	String ss;
         BufferedReader bufferedReader = null;
         try {
             FileReader fileReader = new FileReader("sql2");
